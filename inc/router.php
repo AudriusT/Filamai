@@ -1,14 +1,13 @@
 <?php
 include "nav.php";
-$includePath ="";
+$includePath = "";
 
-foreach ($nav as $path => $key){
-    switch (isset($_GET["page"]) ? $_GET["page"] : ""){
-        case $path;
-        $siteTitle = $key;
-        $includePath = "pages/$path.page.php";
-        break;
-        case $path;
+foreach ($nav as $path => $key) {
+    switch (htmlspecialchars(isset($_GET["page"])) ? htmlspecialchars($_GET["page"]) : "") {
+        case $path:
+            $siteTitle = $key;
+            $includePath = "page/$path.page.php";
+            break;
         default:
             if (empty($includePath)) {
                 $siteTitle = "Pagrindinis";

@@ -23,11 +23,13 @@
 </head>
 
 <body>
-
   <div class="d-flex" id="wrapper">
-
-   <?php include "templates/nav.view.php"; ?>
+      <?php include "sidebar.view.php"; ?>
+      <!--/#sidebar-wrapper-->
+      <div id="page-content-wrapper">
+   <?php include "nav.view.php"; ?>
       <?php include "inc/router.php"; ?>
+          
 
       <div class="container-fluid">
         <h1 class="mt-4"><?=$siteTitle; ?></h1>
