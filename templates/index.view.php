@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <!DOCTYPE html>
 <html lang="lt">
 
@@ -28,11 +24,10 @@
       <!--/#sidebar-wrapper-->
       <div id="page-content-wrapper">
    <?php include "nav.view.php"; ?>
-      <?php include "inc/router.php"; ?>
-          
-
       <div class="container-fluid">
         <h1 class="mt-4"><?=$siteTitle; ?></h1>
+
+          <?php include $includePath; ?>
 
       </div>
     </div>

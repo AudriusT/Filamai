@@ -17,17 +17,17 @@
                     <a class="nav-link" href="?pages=home.page.php">Pradinis puslapis <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Visi Filmai</a>
+                    <a class="nav-link" href="?page=registracija">Registracija</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Veiksmai
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="?page=prideti.page.php">Pridėti naują filmą</a>
-                        <a class="dropdown-item" href="?page=tvarkFilmus.page.php">Tvarkyti filmus</a>
+                        <a class="dropdown-item" href="?page=prideti">Pridėti naują filmą</a>
+                        <a class="dropdown-item" href="?page=tvarkFilmus">Tvarkyti filmus</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="?page=tvarkZanrus.page.php">Tvarkyti žanrus</a>
+                        <a class="dropdown-item" href="?page=tvarkZanrus">Tvarkyti žanrus</a>
                     </div>
                 </li>
             </ul>

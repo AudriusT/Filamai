@@ -1,11 +1,11 @@
 <?php
-$host = '127.0.0.1';
-$db = 'test';
+$host = 'localhost';
+$db = 'ForumCinemas';
 $user = 'root';
 $pass = '';
 $charset = 'utf8mb4';
 
-$dsn = "mysql:host;dbname=$db;charset=$charset";
+$dsm = "mysql:host=$host;db name=$db;charset=$charset";
 $options = [
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
