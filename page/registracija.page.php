@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST['submit'])) {
     require "inc/config.php";
-    require "../common.pgp";
+    require "inc/common.pgp";
     try{
         $connection = new PDO($dsn, $username, $password, $options);
 
@@ -26,7 +26,7 @@ VALUES (:name, :lastname, :email, :phone, :location, :reg_date)";
 
 ?>
 
-<?php require "templates/index.php"; ?>
+<?php require "templates/index.view.php"; ?>
 
 <?php
 if (isset($_POST['submit'])) {
@@ -50,5 +50,5 @@ if (isset($_POST['submit'])) {
     <select name="genre">
         <option value=""></option>
     </select>
+    <a href="?page=home">Atgal</a>
 </form>
-<a href="?page=home">Atgal</a>

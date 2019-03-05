@@ -1,4 +1,11 @@
 <?php
+
+error_reporting(E_ALL & ~E_NOTICE);
+
+const template_path = "templates/";
+
+$siteName = "Filmų sąrašas";
+
 $host = 'localhost';
 $db = 'ForumCinemas';
 $user = 'root';

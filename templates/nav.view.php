@@ -14,7 +14,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" href="?pages=home.page.php">Pradinis puslapis <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="?pages=home">Pradinis puslapis <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="?page=registracija">Registracija</a>
@@ -25,7 +25,7 @@
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="?page=prideti">Pridėti naują filmą</a>
-                        <a class="dropdown-item" href="?page=tvarkFilmus">Tvarkyti filmus</a>
+                        <a class="dropdown-item" href="?page=tvarkFilmai">Tvarkyti filmus</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="?page=tvarkZanrus">Tvarkyti žanrus</a>
                     </div>
