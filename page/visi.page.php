@@ -1,29 +1,41 @@
 <?php
 
 try {
-    $pdo = new PDO($dsm, $users, $pass, $options);
+
+    $pdo = new PDO($dsn, $user, $pass, $options);
 }catch (Exception $e) {
     echo "Negaliu prisijungti prie DB<br>";
     echo $e->getMessage();
     exit;
 }
+
 try {
-    $stm = $pdo->query( 'SELECT * FROM movies');
+    $stmt = $pdo->query( 'SELECT * FROM filmai INNER JOIN zanrai ON filmai.zanro_id = zanrai.Id ');
 }catch (Exception $e) {
     echo "Klaida: Negaliu gauti duomenų iš DB";
     exit;
 }
-$data = $stm->fetchAll();
+
+$data = $stmt->fetchAll();
 
 
 $pdo = null;
 ?>
 <table class="table table-bordered table-responsive">
+    <tr>
+        <td>Pavadinimas</td>
+        <td>Aprašymas</td>
+        <td>Žanras</td>
+        <td>Premjeros data</td>
+    </tr>
 <?php foreach($data as $item):?>
+
 <tr>
-    <td><?=$item['title'];?> </td>
-    <td><?=$item['decription'];?> </td>
-     <td><a href="?action=delete&id=<?=$item['id'];?>">Delete</a></td>
+    <td><?=$item['Pavadinimas'];?> </td>
+    <td><?=$item['Aprasymas'];?> </td>
+    <td><?=$item['Zanras'];?></td>
+    <td><?=$item['Premjeros_data'];?></td>
+    <td><a href="?page=delete&id=<?=$item['id'];?>">Ištrinti</a></td>
 </tr>
     <?php endforeach;?>
 </table>

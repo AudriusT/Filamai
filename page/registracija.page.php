@@ -3,11 +3,11 @@ if (isset($_POST['submit'])) {
     require "inc/config.php";
     require "inc/common.pgp";
     try{
-        $connection = new PDO($dsn, $username, $password, $options);
+        $connection = new PDO($dsn, $user, $pass, $options);
 
-        $stmt = "INSERT INTO mokiniai (vardas, pavarde, elpastas, telefonas, miestas, registracijos_data)
+        $stm = "INSERT INTO mokiniai (vardas, pavarde, elpastas, telefonas, miestas, registracijos_data)
 VALUES (:name, :lastname, :email, :phone, :location, :reg_date)";
-        $querie = $connection->prepare($stmt);
+        $querie = $connection->prepare($stm);
         $querie->execute(array(
             ':name' => $_POST['name'],
             ':lastname' => $_POST['lastname'],

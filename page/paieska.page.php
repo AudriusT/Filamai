@@ -3,7 +3,7 @@ try{
     require "inc/config.php";
     require "inc/common.php";
 
-    $connection = new PDO($dsn, $username, $password, $options);
+    $connection = new PDO($dsn, $user, $pass, $options);
 
     $sql = "SELECT *
     FROM users
