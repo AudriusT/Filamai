@@ -10,7 +10,7 @@ try {
 }
 
 try {
-    $stmt = $pdo->query( 'SELECT * FROM filmai INNER JOIN zanrai ON filmai.zanro_id = zanrai.Id ');
+    $stmt = $pdo->query( 'SELECT * FROM filmai INNER JOIN zanrai ON filmai.zanro_id = zanrai.id ');
 }catch (Exception $e) {
     echo "Klaida: Negaliu gauti duomenų iš DB";
     exit;
@@ -33,7 +33,7 @@ $pdo = null;
 <tr>
     <td><?=$item['Pavadinimas'];?> </td>
     <td><?=$item['Aprasymas'];?> </td>
-    <td><?=$item['Zanras'];?></td>
+    <td><?=$item['Zanrai'];?></td>
     <td><?=$item['Premjeros_data'];?></td>
     <td><a href="?page=delete&id=<?=$item['id'];?>">Ištrinti</a></td>
 </tr>

@@ -13,7 +13,7 @@ try {
     echo "Zanrų rasti neina";
     exit;
 }
-$data = $stmt->fetchAll();
+$genres = $stmt->fetchAll();
 $pdo = null;
 
 if (isset($_POST['submit'])) {
@@ -28,7 +28,7 @@ try {
     $query->execute([
         ':Pavadinimas' => $_POST['Pavadinimas'],
         ':Aprasymas' => $_POST['Aprasymas'],
-        ':Zanro_id' => $_POST['Zanras'],
+        ':Zanro_id' => $_POST['Zanrai'],
         ':Premjeros_data' => $_POST['Premjeros_data'],
     ]);
 
@@ -53,8 +53,8 @@ $pdo = null;
         <div class="form-group"> <label for="Zanro_id">Filmo žanras:</label>
             <select class="form-control" name="Zanrai">
                 <option value="zanro-pasirinkimas" selected disabled>Pasirinkite žanrą</option>
-            <?php foreach ($data as $genre): ?>
-                <option value="<?=$genre['zanro_id']?>"><?=$genre['Zanras']?></option>
+            <?php foreach ($genres as $genre): ?>
+                <option value="<?=$genre['Id']?>"><?=$genre['Zanrai']?></option>
                 <?php endforeach; ?>
             </select>
         </div>
