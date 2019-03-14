@@ -28,13 +28,13 @@ try {
     $query->execute([
         ':Pavadinimas' => $_POST['Pavadinimas'],
         ':Aprasymas' => $_POST['Aprasymas'],
-        ':Zanro_id' => $_POST['Zanrai'],
+        ':Zanro_id' => $_POST['Zanras'],
         ':Premjeros_data' => $_POST['Premjeros_data'],
     ]);
 
     echo "Įrašas pridėtas";
 }catch (\PDOException $e){
-    echo"Veiksmo atlikti neina";
+    echo "Veiksmo atlikti neina";
     exit;
 }
 $pdo = null;
@@ -51,10 +51,10 @@ $pdo = null;
         </div>
 
         <div class="form-group"> <label for="Zanro_id">Filmo žanras:</label>
-            <select class="form-control" name="Zanrai">
+            <select class="form-control" name="Zanras">
                 <option value="zanro-pasirinkimas" selected disabled>Pasirinkite žanrą</option>
             <?php foreach ($genres as $genre): ?>
-                <option value="<?=$genre['Id']?>"><?=$genre['Zanrai']?></option>
+                <option value="<?=$genre['Id']?>"><?=$genre['Zanras']?></option>
                 <?php endforeach; ?>
             </select>
         </div>
@@ -62,7 +62,7 @@ $pdo = null;
                 <input type="date" class="form-control" name="Premjeros_data" id="Premjeros_data">
             </div>
     <div>
-            <button type="submit" name="submit" class="btn btn-primary"</button>
+            <button type="submit" name="submit" class="btn btn-primary">Pridėti</button>
         </div>
     </form>
 </div>
