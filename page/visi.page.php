@@ -16,17 +16,6 @@ try {
     exit;
 }
 
-if (isset($_POST['ID'])){
-    $pdo = new PDO($dsn, $user, $pass, $options);
-    $sql = "DELETE FROM filmai WHERE ID = {$id}";
-
-if ($id->query($sql) === TRUE) {
-    echo "Record deleted successfully";
-} else {
-    echo "Error deleting record: " . $id->error;
-}
-}
-
 $data = $stmt ->fetchAll();
 
 $pdo = null;
@@ -45,9 +34,9 @@ $pdo = null;
 <tr>
     <td><?=$item['Pavadinimas'];?> </td>
     <td><?=$item['Aprasymas'];?> </td>
-    <td><?=$item['Zanras'];?></td>
+    <td><?=$item['Zanrai'];?></td>
     <td><?=$item['Premjeros_data'];?></td>
-    <td><a href="?page=visi&id=<?=$item['ID'];?>">Ištrinti</a></td>
+    <td><a href="?page=delete&id=<?=$item['ID'];?>">Ištrinti</a></td>
 </tr>
     <?php endforeach;?>
 </table>
