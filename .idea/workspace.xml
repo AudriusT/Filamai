@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00cf3644-2d48-4e08-a04d-89968f1ee906" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/redaguoti.page.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/nav.php" afterPath="$PROJECT_DIR$/inc/nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/delete.page.php" afterPath="$PROJECT_DIR$/page/delete.page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/statistika.page.php" afterPath="$PROJECT_DIR$/page/statistika.page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/visi.page.php" afterPath="$PROJECT_DIR$/page/visi.page.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -197,12 +192,12 @@
       <workItem from="1551978296868" duration="8755000" />
       <workItem from="1552543425997" duration="9793000" />
       <workItem from="1552889375641" duration="36000" />
-      <workItem from="1552889473067" duration="12182000" />
+      <workItem from="1552889473067" duration="12280000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81350000" />
+    <option name="totallyTimeSpent" value="81448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1149" height="1047" extended-state="0" />
