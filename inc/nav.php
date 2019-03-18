@@ -9,5 +9,6 @@ $nav = [
     "tvarkZanrus" => "Tvarkyti žanrus",
     "tvarkFilmai" => "Tvarkyti filmus",
     "registracija" => "Registracija",
-    "delete" => "Operacija"
+    "delete" => "Operacija",
+    "redaguoti" => "Redaguoti filmą"
 ];

@@ -10,21 +10,11 @@ try {
 }
 
 try {
-    $stmt = $pdo->query( 'SELECT * FROM filmai INNER JOIN zanrai ON filmai.Zanro_id = zanrai.id ');
+    $stmt = $pdo->query( 'SELECT * FROM filmai INNER JOIN zanrai
+ ON filmai.Zanro_id = zanrai.id ');
 }catch (Exception $e) {
     echo "Klaida: Negaliu gauti duomenų iš DB";
     exit;
-}
-
-if (isset($_POST['ID'])){
-    $pdo = new PDO($dsn, $user, $pass, $options);
-    $sql = "DELETE FROM filmai WHERE ID = {$id}";
-
-if ($id->query($sql) === TRUE) {
-    echo "Record deleted successfully";
-} else {
-    echo "Error deleting record: " . $id->error;
-}
 }
 
 $data = $stmt ->fetchAll();
@@ -47,7 +37,8 @@ $pdo = null;
     <td><?=$item['Aprasymas'];?> </td>
     <td><?=$item['Zanras'];?></td>
     <td><?=$item['Premjeros_data'];?></td>
-    <td><a href="?page=visi&id=<?=$item['ID'];?>">Ištrinti</a></td>
+    <td><a href="?page=delete&ID=<?=$item['ID'];?>">Ištrinti</a></td>
+    <td><a href="?page=redaguoti&ID=<?=$item['ID'];?>">Redaguoti</a></td>
 </tr>
     <?php endforeach;?>
 </table>
