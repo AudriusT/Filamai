@@ -8,7 +8,7 @@ try {
     exit;
 }
 try{
-    $stmt = $pdo->query("DELETE FROM filmai WHERE ID = '$id' ");
+    $stmt = $pdo->query("DELETE FROM filmai WHERE ID = $id ");
 }
 catch(Exception $e){
     echo "Nėra duomenų";
