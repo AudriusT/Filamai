@@ -10,12 +10,12 @@ try {
 }
 
 try {
-<<<<<<< HEAD
+
     $stmt = $pdo->query( 'SELECT * FROM filmai INNER JOIN zanrai
  ON filmai.Zanro_id = zanrai.id ');
-=======
+
     $stmt = $pdo->query( 'SELECT * FROM filmai INNER JOIN zanrai ON filmai.Zanro_id = zanrai.Id ');
->>>>>>> db1f7d9a9b425701f994b58de717ba8ecb93a750
+
 }catch (Exception $e) {
     echo "Klaida: Negaliu gauti duomenų iš DB";
     exit;

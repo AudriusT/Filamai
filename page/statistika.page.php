@@ -23,15 +23,13 @@ foreach($genres as $zanras){
 
     if($stmt!=null){
         $number = count($filmList);
-<<<<<<< HEAD
+
         $list .= "<li class=\"list-group-item\">{$zanras['Zanras']} <span class=\"badge\">({$number})</span></li>";
 } else {
         $list .= "<li class=\"list-group-item\">{$zanras['Zanras']} <span class=\"badge\">(0)</span></li>";
-=======
-        $list .= "<li class=\"list-group-item\">{$zanras['Zanrai']} <span class=\"badge\">({$number})</span></li>";
-} else {
-        $list .= "<li class=\"list-group-item\">{$zanras['Zanrai']} <span class=\"badge\">(0)</span></li>";
->>>>>>> db1f7d9a9b425701f994b58de717ba8ecb93a750
+
+
+
 }
 }
 echo $list . "</ul>";
