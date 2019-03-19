@@ -7,7 +7,7 @@ const template_path = "templates/";
 $siteName = "Filmų sąrašas";
 
 $host = 'localhost';
-$db = 'ForumCinemas';
+$db = 'forumcinemas';
 $user = 'root';
 $pass = '';
 $charset = 'utf8mb4';

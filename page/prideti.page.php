@@ -28,7 +28,7 @@ try {
     $query->execute([
         ':Pavadinimas' => $_POST['Pavadinimas'],
         ':Aprasymas' => $_POST['Aprasymas'],
-        ':Zanro_id' => $_POST['Zanras'],
+        ':Zanro_id' => $_POST['Zanrai'],
         ':Premjeros_data' => $_POST['Premjeros_data'],
     ]);
 
@@ -51,10 +51,10 @@ $pdo = null;
         </div>
 
         <div class="form-group"> <label for="Zanro_id">Filmo žanras:</label>
-            <select class="form-control" name="Zanras">
+            <select class="form-control" name="Zanro_id">
                 <option value="zanro-pasirinkimas" selected disabled>Pasirinkite žanrą</option>
             <?php foreach ($genres as $genre): ?>
-                <option value="<?=$genre['Id']?>"><?=$genre['Zanras']?></option>
+                <option value="<?=$genre['Id']?>"><?=$genre['Zanrai']?></option>
                 <?php endforeach; ?>
             </select>
         </div>

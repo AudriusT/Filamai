@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00cf3644-2d48-4e08-a04d-89968f1ee906" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/statistika.page.php" afterPath="$PROJECT_DIR$/page/statistika.page.php" />
+=======
+      <change afterPath="$PROJECT_DIR$/page/redaguoti.page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/nav.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/delete.page.php" beforeDir="false" afterPath="$PROJECT_DIR$/page/delete.page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/prideti.page.php" beforeDir="false" afterPath="$PROJECT_DIR$/page/prideti.page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/statistika.page.php" beforeDir="false" afterPath="$PROJECT_DIR$/page/statistika.page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/visi.page.php" beforeDir="false" afterPath="$PROJECT_DIR$/page/visi.page.php" afterDir="false" />
+>>>>>>> db1f7d9a9b425701f994b58de717ba8ecb93a750
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,47 +28,68 @@
     <session id="-889904379">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.103" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="1998" />
+          <entry key="php" value="2833" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="1998" />
+          <entry key="PHP" value="2833" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="17" />
+          <entry key="php" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="17" />
+          <entry key="PHP" value="35" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="nav.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inc/nav.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
               <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/statistika.page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/visi.page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-248">
+              <caret line="12" column="87" selection-start-line="12" selection-start-column="87" selection-end-line="12" selection-end-column="87" />
+>>>>>>> db1f7d9a9b425701f994b58de717ba8ecb93a750
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file leaf-file-name="statistika.page.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page/statistika.page.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,6 +99,22 @@
                 <marker date="1552975872485" expanded="true" signature="86:106" ph="SELECT * FRO... zanrai" />
                 <marker date="1552975872485" expanded="true" signature="334:425" ph="SELECT * fro... filmai" />
               </folding>
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/redaguoti.page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-338">
+              <caret line="37" column="75" selection-start-line="37" selection-start-column="75" selection-end-line="37" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/page/prideti.page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+>>>>>>> db1f7d9a9b425701f994b58de717ba8ecb93a750
             </state>
           </provider>
         </entry>
@@ -96,6 +142,7 @@
         <option value="$PROJECT_DIR$/page/paieska.page.php" />
         <option value="$PROJECT_DIR$/page/registracija.page.php" />
         <option value="$PROJECT_DIR$/index.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/page/prideti.page.php" />
         <option value="$PROJECT_DIR$/page/delete.page.php" />
         <option value="$PROJECT_DIR$/inc/nav.php" />
@@ -103,6 +150,15 @@
         <option value="$PROJECT_DIR$/page/redaguoti.page.php" />
         <option value="$PROJECT_DIR$/page/visi.page.php" />
         <option value="$PROJECT_DIR$/page/statistika.page.php" />
+=======
+        <option value="$PROJECT_DIR$/inc/nav.php" />
+        <option value="$PROJECT_DIR$/inc/config.php" />
+        <option value="$PROJECT_DIR$/page/delete.page.php" />
+        <option value="$PROJECT_DIR$/page/redaguoti.page.php" />
+        <option value="$PROJECT_DIR$/page/statistika.page.php" />
+        <option value="$PROJECT_DIR$/page/visi.page.php" />
+        <option value="$PROJECT_DIR$/page/prideti.page.php" />
+>>>>>>> db1f7d9a9b425701f994b58de717ba8ecb93a750
       </list>
     </option>
   </component>
@@ -123,25 +179,19 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
+<<<<<<< HEAD
     <option name="width" value="1331" />
     <option name="height" value="1047" />
+=======
+    <option name="width" value="1150" />
+    <option name="height" value="788" />
+>>>>>>> db1f7d9a9b425701f994b58de717ba8ecb93a750
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -150,24 +200,28 @@
           <expand>
             <path>
               <item name="Filamai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Filamai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Filamai" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Filamai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Filamai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="inc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Filamai" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Filamai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Filamai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="page" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Filamai" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Filamai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Filamai" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,9 +248,6 @@
       </list>
     </option>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -215,16 +266,24 @@
       <workItem from="1551805179378" duration="8510000" />
       <workItem from="1551938816024" duration="11734000" />
       <workItem from="1551978296868" duration="8755000" />
+<<<<<<< HEAD
       <workItem from="1552543425997" duration="9793000" />
       <workItem from="1552889375641" duration="36000" />
       <workItem from="1552889473067" duration="12836000" />
       <workItem from="1552902413456" duration="170000" />
       <workItem from="1552902586115" duration="390000" />
       <workItem from="1552975619398" duration="860000" />
+=======
+      <workItem from="1552543425997" duration="9594000" />
+      <workItem from="1552573576008" duration="8960000" />
+      <workItem from="1552849914227" duration="7788000" />
+      <workItem from="1552922696400" duration="10067000" />
+>>>>>>> db1f7d9a9b425701f994b58de717ba8ecb93a750
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="83424000" />
   </component>
   <component name="ToolWindowManager">
@@ -249,7 +308,57 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+    <option name="totallyTimeSpent" value="95748000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15355521" />
+      <window_info id="Structure" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Thumbnails" order="2" weight="0.32934782" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32995737" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+>>>>>>> db1f7d9a9b425701f994b58de717ba8ecb93a750
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15355521" />
+      <window_info id="Structure" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Thumbnails" order="2" weight="0.32934782" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32569557" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32995737" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -257,6 +366,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< HEAD
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -283,60 +393,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page/prideti.page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="56" column="43" lean-forward="false" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
-          <folding>
-            <marker date="1552548117461" expanded="true" signature="186:206" ph="SELECT * FRO... zanrai" />
-            <marker date="1552548117461" expanded="true" signature="421:565" ph="INSERT INTO filmai... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/functions.php" />
+=======
+  <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/page/forma.page.php" />
     <entry file="file://$PROJECT_DIR$/inc/registracija.php" />
-    <entry file="file://$PROJECT_DIR$/templates/nav.view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="27" column="72" lean-forward="false" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-621">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/sidebar.view.php">
+>>>>>>> db1f7d9a9b425701f994b58de717ba8ecb93a750
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="35" />
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/registracija.page.php">
+    <entry file="file://$PROJECT_DIR$/page/paieska.page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="540">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -347,14 +419,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/templates/nav.view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="459">
+          <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/templates/index.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-621">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+=======
+    <entry file="file://$PROJECT_DIR$/inc/router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/functions.php">
+      <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> db1f7d9a9b425701f994b58de717ba8ecb93a750
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/mysql/mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="163" column="49" lean-forward="true" selection-start-line="163" selection-start-column="49" selection-end-line="163" selection-end-column="50" />
+=======
+    <entry file="file://$PROJECT_DIR$/inc/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+>>>>>>> db1f7d9a9b425701f994b58de717ba8ecb93a750
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/delete.page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/page/paieska.page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -442,6 +568,47 @@
             <marker date="1552975872485" expanded="true" signature="86:106" ph="SELECT * FRO... zanrai" />
             <marker date="1552975872485" expanded="true" signature="334:425" ph="SELECT * fro... filmai" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/inc/nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/registracija.page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="16" selection-start-column="47" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/statistika.page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/redaguoti.page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-338">
+          <caret line="37" column="75" selection-start-line="37" selection-start-column="75" selection-end-line="37" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/visi.page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-248">
+          <caret line="12" column="87" selection-start-line="12" selection-start-column="87" selection-end-line="12" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/prideti.page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+>>>>>>> db1f7d9a9b425701f994b58de717ba8ecb93a750
         </state>
       </provider>
     </entry>
