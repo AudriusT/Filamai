@@ -1,48 +1,33 @@
 <?php
 
-try {
-    $pdo = new PDO($dsn, $user, $pass, $options);
-}catch (Exception $e) {
-    echo "Prisijungti prie DB neina";
-    echo $e->getMessage();
-}
+$pdo = new PDO($dsn,$user,$pass,$options);
 
 try {
-    $stmt = $pdo->query('SELECT * FROM zanrai');
-} catch (Exception $e) {
-    echo "Zanrų rasti neina";
+    $db_query = $pdo->query('SELECT * FROM zanrai');
+} catch (\PDOException $e) {
+    echo "Klaida, duomenu gauti neimanoma";
     exit;
 }
-$genres = $stmt->fetchAll();
-var_dump($genres);
+$genres = $db_query->fetchAll();
 
+$list="<ul class=\"list-group\">";
+foreach($genres as $zanras){
     try {
-        $db = $pdo->prepare('SELECT * FROM filmai WHERE zanrai.Id = :ID;');
-        $db->execute([
-            ':ID' => $genre[0]['Id']
-        ]);
-    } catch (\PDOException $e) {
-        echo "Klaida: Negaliu gauti duomenų iš DB";
-        exit;
+        $stmt = $pdo->prepare("SELECT * from filmai inner join zanrai on filmai.zanro_id = zanrai.Id WHERE zanrai.Id = :id;");
+        $stmt->bindParam(':id', $zanras['Id'], PDO::PARAM_STR);
+        $stmt->execute();
+    } catch (PDOException $e){
+        echo "Duomenu gauti neimanoma";
     }
-    $db->execute();
-    $data = $db->fetchAll();
-    $pdo = null;
-?>
+    $filmList = $stmt->fetchAll();
 
-<table class="table table-bordered table-responsive">
-    <tr>
-        <td>Žanrai</td>
-        <td>Filmų skaičius</td>
-    </tr>
-    <?php foreach($genres as $genre):?>
+    if($stmt!=null){
+        $number = count($filmList);
+        $list .= "<li class=\"list-group-item\">{$zanras['Zanras']} <span class=\"badge\">({$number})</span></li>";
+} else {
+        $list .= "<li class=\"list-group-item\">{$zanras['Zanras']} <span class=\"badge\">(0)</span></li>";
+}
+}
+echo $list . "</ul>";
 
-        <tr>
-            <td><?=$genre['Zanras'];?></td>
-            <?php foreach ($data as $fin):?>
-            <td><?=$fin[''];?></td>
-                 <?php endforeach;?>
-            <td
-        </tr>
-    <?php endforeach;?>
-</table>
+$pdo = null;
